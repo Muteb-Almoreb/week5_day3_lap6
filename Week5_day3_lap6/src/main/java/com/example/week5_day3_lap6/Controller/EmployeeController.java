@@ -16,7 +16,7 @@ public class EmployeeController {
     ArrayList<Employee> employees = new ArrayList<>();
 
     @GetMapping("/get")
-    /// ابيه اذا غلط وحط كابيتل لتر انه يجي ويعدلها ويحطها كلها سمول . اكسسترا`
+  
     public ResponseEntity<?> getAllEmployee() {
 
         if (employees.isEmpty()) {
